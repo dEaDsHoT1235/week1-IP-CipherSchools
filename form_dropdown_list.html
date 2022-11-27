@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORMS part 1</h1>
+    <form method="GET" action="structure.html">
+        <label for="username">Username : </label><input type="text" id="username">
+        <br><br>
+
+        <label for="password">password : </label>
+        <input type="password" id="password">
+
+        <br><br><label for="email">email : </label>
+        <input type="email" id="email"><br>
+        
+        <p>select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="
+        gender" id="male" value="Male"><br>
+        <label for="female">Female</label>
+        <input type="radio" name="
+        gender" id="female" value="Female"><br>
+        <label for="others">Others</label>
+        <input type="radio" name="
+        gender" id="others" value="Others">
+
+        <br>
+        
+        <label for="age-group">Select your age group</label>
+        <select name="age-group-values" id="age-group">
+            <option value="5-10">5-10</option>
+            <option value="11-21">11-21</option>
+            <option value="21-50">21-50</option>
+            <option value="50+">50+</option>
+        </select>
+<!-- values is the function that gets send to the backend -->
+        <br><input type="submit"  value="sign in">
+
+    </form>
+    
+</body>
+</html>
